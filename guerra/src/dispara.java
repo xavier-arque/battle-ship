@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+// des d'aqui controlem el dispars que fem i si impacten en l'objectiu o no
+
 public class dispara
 {
 
