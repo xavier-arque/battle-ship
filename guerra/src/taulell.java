@@ -1,6 +1,9 @@
 public class taulell {
+    
+    // clase per crear el taulell, dibuixar-lo i actualitzar-lo
+    
 
-    dispara dis = new dispara(); // dispars fet. necesari per cridar el metode hit de la clase dispara
+    dispara dis = new dispara(); // dispars fet. Es necesari per cridar el metode hit de la clase dispara
 
     // crea el taulell amb tots el seus valors a -1
 
@@ -34,6 +37,8 @@ public class taulell {
         }
 
 
+    // actualitza el taulell despres dels dispars. aquest no pot ser estatic perque crida el metode hit que es de la clase dispara
+    
     public void changeboard(int[] shoot, int[][] vaixells, int[][] board){
             if(dis.hit(shoot,vaixells))
                 board[shoot[0]][shoot[1]]=1;
