@@ -4,7 +4,7 @@ import java.util.Scanner;
 /**
  * classe principal des de la que es cridaran a les altres clases.
  * els noms de les clases no segueixen sempre els formulismes de mayuscules i minuscules.
- * Anava amb pressa. Respecteu l'escriptura perque ajuda a distingir que es cada cosa.
+ * Anava amb pressa. En general respecteu l'escriptura perque ajuda a distingir que es cada cosa.
  */
 
 public class guerra {
